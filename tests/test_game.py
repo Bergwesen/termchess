@@ -21,8 +21,8 @@ ALL_PIECES = [Turm, Pferd, Laeufer, Dame, Koenig, Bauer]
 @pytest.mark.parametrize(
     "listt",
     [
-        pytest.param([("a7", "a6"), ("a2", "a4")],id="first"),
-        pytest.param([("a7", "a5"), ("a2", "a4"), ("a8", "a6")],id="second"),
+        pytest.param([("a2", "a4"), ("a7", "a6")],id="first"),
+        pytest.param([("a2", "a4"), ("a7", "a5"), ("a1", "a3")],id="second"),
     ],
 )
 def test_game_loop_preset(listt):
@@ -34,7 +34,7 @@ def test_game_loop_preset(listt):
 def test_game_loop_preset_keeps_alternating_turns():
     test_game = modules.game.Game()
 
-    test_game.game_loop_preset([("a7", "a5"), ("a2", "a4"), ("a8", "a6")])
+    test_game.game_loop_preset([("a2", "a4"), ("a7", "a5"), ("a1", "a3")])
 
     assert test_game.current == 3
     assert test_game.game_sequence[test_game.current].color == Color.BLACK

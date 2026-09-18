@@ -50,19 +50,19 @@ class Position:
 
         
 
-KOENIG_SIGN_W    = "\u2654"  # ♔
-DAME_SIGN_W      = "\u2655"  # ♕
-TURM_SIGN_W      = "\u2656"  # ♖
-LAEUFER_SIGN_W   = "\u2657"  # ♗
-SPRINGER_SIGN_W  = "\u2658"  # ♘
-BAUER_SIGN_W     = "\u2659"  # ♙
+KOENIG_SIGN_W    = "\u265A"  # ♚
+DAME_SIGN_W      = "\u265B"  # ♛
+TURM_SIGN_W      = "\u265C"  # ♜
+LAEUFER_SIGN_W   = "\u265D"  # ♝
+SPRINGER_SIGN_W  = "\u265E"  # ♞
+BAUER_SIGN_W     = "\u265F"  # ♟
 
-KOENIG_SIGN_B    = "\u265A"  # ♚
-DAME_SIGN_B      = "\u265B"  # ♛
-TURM_SIGN_B      = "\u265C"  # ♜
-LAEUFER_SIGN_B   = "\u265D"  # ♝
-SPRINGER_SIGN_B  = "\u265E"  # ♞
-BAUER_SIGN_B     = "\u265F"  # ♟
+KOENIG_SIGN_B    = "\u2654"  # ♔
+DAME_SIGN_B      = "\u2655"  # ♕
+TURM_SIGN_B      = "\u2656"  # ♖
+LAEUFER_SIGN_B   = "\u2657"  # ♗
+SPRINGER_SIGN_B  = "\u2658"  # ♘
+BAUER_SIGN_B     = "\u2659"  # ♙
 
 BAUER_LETTER = "B"
 DAME_LETTER = "Q"

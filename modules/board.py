@@ -218,7 +218,9 @@ class Board:
                     multiline_string += "|" + " "
 
             # print("|")
-            multiline_string += "|" + str(y + 1) + "\n"
+            multiline_string += "|" + str(8 - y) + "\n"
+        multiline_string += "------------------\n"
+        multiline_string += " a b c d e f g h\n"
         return multiline_string
 
 
