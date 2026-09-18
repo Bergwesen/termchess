@@ -1,9 +1,15 @@
+
+
 # termchess v2
 
 Termchess is a chess engine hand coded in  Python.
 It does the following :
 - Allows to run  chess games from any position
 - Loads and exports the board as FEN
+
+
+
+https://github.com/user-attachments/assets/e45e2e6c-3e96-4248-bcb1-426a862d48a0
 
 
 ## Run
